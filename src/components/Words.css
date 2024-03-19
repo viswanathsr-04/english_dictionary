@@ -1,0 +1,83 @@
+.Words {
+    margin: 5%;
+    border: 2px solid white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    height: 50vh;
+    overflow: scroll;
+}
+
+.Words:hover {
+    box-shadow: #fff 0 4px 8px 0;
+}
+
+.Words__word {
+    color: rgb(104, 175, 203);
+    margin-top: 5%;
+}
+
+.Words__word__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.Words__word__pos {
+    margin-left: 1%;
+}
+
+.Words__meaning {
+    display: flex;
+    flex-direction: column;
+    color: rgb(104, 175, 203);
+    align-items: center;
+    justify-content: center;
+}
+
+.Words__meaning__p {
+    display: flex;
+    margin-bottom: 2%;
+    word-wrap: break-word;
+    width: 35%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Words__synonyms__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.Words__synonyms {
+    color: rgb(104, 175, 203);
+}
+
+.Words__synonyms__p {
+    color: white;
+}
+
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
